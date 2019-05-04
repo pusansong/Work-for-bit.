@@ -40,6 +40,7 @@
 //AABCD左旋一个字符得到ABCDA
 //AABCD左旋两个字符得到BCDAA
 //
+<<<<<<< HEAD
 //AABCD右旋一个字符得到DAABC
 ​
 //#include <stdio.h>
@@ -76,4 +77,42 @@
 //	}
 //	system("pause");
 //	return 0;
+=======
+//AABCD右旋一个字符得到DAABC
+​
+//#include <stdio.h>
+//#include <string.h>
+//#include<stdlib.h>
+//char compare(char s1[], char s2[]) {
+//	char tmp = 0;
+//	int len = strlen(s1);
+//	int i, j;
+//	for (j = 1; j <= len; j++) {
+//		tmp = s1[0];
+//		for (i = 0; i < len - 1; i++) {
+//			s1[i] = s1[i + 1];
+//		}
+//		s1[len - 1] = tmp;
+//		if (strcmp(s1, s2) == 0) {   //判断旋转后的s1和s2是否相同
+//			printf("左旋了%d次\n", j);
+//			return 1;
+//		}
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	char s1[] = "shanxikejidaxue";
+//	char s2[] = "xikejidaxueshan";
+//	printf("s1=%s\n", s1);
+//	printf("s2=%s\n", s2);
+//	if (compare(s1, s2) == 1) {
+//		printf("s2是s1旋转后的字符");
+//	}
+//	else {
+//		printf("s2不是s1旋转后的字符");
+//	}
+//	system("pause");
+//	return 0;
+>>>>>>> 0bd45015e2baaa6ce889ad7100cb65d29de5f139
 //}
